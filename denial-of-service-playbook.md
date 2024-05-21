@@ -1,7 +1,17 @@
 # Denial of Service Response Playbook
 
-## Purpose
-- The Purpose of this document is to describe the steps used to respond to a Denial of Service event.
+## Step 1: Preparation
+- ISP Support
+  * Contact ISP and understand the DDoS mitigation services it provides and what processes they recommend to follow.
+- Inventory
+  * Create a whitelist of IP addresses and protocols to prioritise during an attack.
+  * Document IT infrastructure, including business owners, IP addresses, circuit IDs etc. Have detailed network topologies and an updated asset inventory.
+- Network Infrastructure
+  * Review network infrastructure and ensure there is no bottle necks or single point of failures.
+  * Deploy a Web Application Firewall (WAF) to protect against application-layer DDoS attacks.
+ - Communication
+  * Prepare an internal and external means of communication for DDoS attacks.
+  * Identify channel where this communication will be posted.
 
 ## Step 1: Detection and Analysis
 - **Detection**: Utilize network monitoring tools and intrusion detection systems to identify abnormal traffic patterns and spikes in traffic.

@@ -3,40 +3,37 @@
 ## Scenario Title: Unauthorized Access to Database
 
 ### Overview
-On May 21, 2024, at 10:00 AM, the IT security team of Acme Corp identified unauthorized access to their customer database. The database contains sensitive customer information, including names, addresses, and payment details.
+On May 21, 2024, at 10:00 AM, the security team of Acme Corp identified unauthorized access to their customer database. The database contains sensitive customer information, including names, addresses, and payment details.
 
 ### Incident Details
 - **Date and Time Detected**: May 21, 2024, 10:00 AM
-- **Detected By**: IT Security Team
+- **Detected By**: SIEM detection
 - **System Affected**: Customer Database Server
 - **Type of Incident**: Unauthorized Access
-- **Impact**: Potential exposure of sensitive customer information
-
+- **Impact**: P1
+  
 ### Incident Response Team
-- **Incident Response Manager**: Jane Doe
-- **Database Administrator**: John Smith
-- **Network Security Specialist**: Alice Johnson
-- **Legal Advisor**: Bob Brown
-- **Public Relations**: Emma Wilson
+- **Incident Response Manager**: JP Haywood
+- **Incident Response Officer**: Tony Bianco
 
 ### Response Actions
 
 #### 1. Identification
 - **Action**: Verify the unauthorized access
-  - **Details**: Check logs for unusual access patterns and identify the entry point.
-  - **Responsible**: IT Security Team
+  - **Details**: Check database logs for unusual access patterns and identify the entry point.
+  - **Responsible**: Incident Response Officer (Tony Bianco)
   - **Timestamp**: May 21, 2024, 10:15 AM
 
 #### 2. Containment
-- **Action**: Isolate the affected server from the network
+- **Action**: Isolate the affected database server from the network
   - **Details**: Remove the server from the network to prevent further access.
-  - **Responsible**: Network Security Specialist
+  - **Responsible**: Incident Response Officer (Tony Bianco)
   - **Timestamp**: May 21, 2024, 10:30 AM
 
 #### 3. Eradication
 - **Action**: Remove malicious software and secure the entry point
   - **Details**: Perform a thorough scan and remove any detected malware. Patch vulnerabilities exploited for access.
-  - **Responsible**: Database Administrator
+  - **Responsible**: System Administrator 
   - **Timestamp**: May 21, 2024, 11:00 AM
 
 #### 4. Recovery

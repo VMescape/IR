@@ -1,7 +1,7 @@
 # Incident Response Plan (IRP)
 
 ## Purpose
-The purpose of this policy is to provide guidelines for handling security incidents that affect the organization's information systems and data. The policy defines the roles and responsibilities of the incident response team and establishes procedures for reporting, detecting, analyzing, containing, eradicating, and recovering from security incidents.
+The purpose of this policy is to provide guidelines for handling security incidents that affect the [Organisation]'s information systems and data. The policy defines the roles and responsibilities of the incident response team and establishes procedures for reporting, detecting, analyzing, containing, eradicating, and recovering from security incidents.
 
 ## Scope
 This policy applies to all employees, contractors, and third-party vendors who have access to the organization's information systems and data.
@@ -14,8 +14,8 @@ This policy applies to all employees, contractors, and third-party vendors who h
 
 ## Roles & Responsibilities
 
-- **Incident Response Team (IRT)**: Responsible for managing security incidents and ensuring that they are resolved in a timely and effective manner.
-- **Information Security Officer (ISO)**: Responsible for overseeing the IRT and ensuring that the organization's security policies and procedures are followed.
+- **Incident Response Manager (IRC)**: Responsible for overseeing the IRT, providing oversight and communication to stakeholders.
+- **Information Security Officer (ISO)**: Responsible for overseeing the IRP and ensuring that the organization's security policies and procedures are followed.
 - **All employees, contractors, and third-party vendors**: Responsible for reporting security incidents to the IRT as soon as they are detected.
 
 ## Prioritization
@@ -63,3 +63,30 @@ This policy applies to all employees, contractors, and third-party vendors who h
 - Document lessons learned and update the IRP accordingly.
 - Provide training or awareness programs if needed to prevent similar incidents in the future.
 - Generate a final report summarizing the incident, response actions, and recommendations for improvement.
+
+## Metrics and Continuous Improvement
+
+- Incident Metrics
+  * Track key metrics such as incident detection time, response time, and recovery time.
+  * Analyse metrics to assess the effectiveness of the incident response program and identify trends.
+    
+-Continuous Improvement
+  * Regularly review and update the incident response policy and procedures to reflect changes in the threat landscape and organisational environment.
+  * Conduct periodic incident response drills and exercises to validate the effectiveness of the IRP and team readiness.
+  * Incorporate feedback from drills, exercises, and post-incident reviews to continually improve the incident response process.
+    
+## Compliance and Enforcement
+- Compliance
+  * Ensure compliance with relevant laws, regulations, and industry standards related to incident management.
+  * Conduct regular audits to verify adherence to this policy and identify areas for improvement.
+
+- Enforcement
+  * Non-compliance with this policy may result in disciplinary action, up to and including termination of employment.
+  * Contractors, vendors, and agents who violate this policy may face penalties as per their contract terms.
+- Approval
+  * This policy is approved by the [Executive Leadership/Board of Directors] and is effective as of [Date].
+
+## References
+- NIST Special Publication 800-61 Revision 2, "Computer Security Incident Handling Guide"
+- [Your Organisation] Information Security Policy
+- [Your Organisation] Incident Response Plan

@@ -1,4 +1,4 @@
-# Incident Response Plan
+# Incident Response Plan (IRP)
 
 ## Purpose
 The purpose of this policy is to provide guidelines for handling security incidents that affect the organization's information systems and data. The policy defines the roles and responsibilities of the incident response team and establishes procedures for reporting, detecting, analyzing, containing, eradicating, and recovering from security incidents.
@@ -49,11 +49,13 @@ This policy applies to all employees, contractors, and third-party vendors who h
     * Blocking network traffic associated with the incident.
   - Decide whether to use short-term or long-term containment strategies based on the nature and severity of the incident.
 - **Eradication**:
-  - Identify and remove the root cause of the incident.
-  - Implement measures to ensure that the threat does not recur.
+  - Identify and mitigate all vulnerabilities that were exploited.
+  - Remove malware, inappropriate materials, and other components
+  - If more affected hosts are discovered (e.g., new malware infections), repeat the Detection and Analysis steps to identify all other affected hosts, then contain and eradicate the incident for them
 - **Recovery**:
-  - Restore affected systems and services to normal operation.
-  - Verify that the systems are functioning correctly and that no threats remain.
+  - Restore affected systems to an operationally ready state.
+  - Confirm that the affected systems are functioning normally no threats remain.
+  - If necessary, implement additional monitoring to look for future related activity.
 
 ## Post-incident Activity
 

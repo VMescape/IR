@@ -1,8 +1,11 @@
 # Denial of Service Response Playbook
 
-## Step 1: Detection and Identification
+## Purpose
+- The Purpose of this document is to describe the steps used to respond to a Denial of Service event.
+
+## Step 1: Detection and Analysis
 - **Detection**: Utilize network monitoring tools and intrusion detection systems to identify abnormal traffic patterns and spikes in traffic.
-- **Identification**: Determine the type and source of the attack (e.g., volumetric, application layer, distributed).
+- **Analysis**: Determine the type and source of the attack (e.g., volumetric, application layer, distributed).
 
 ## Step 2: Mitigation
 ### 2.1 Traffic Filtering

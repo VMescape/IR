@@ -70,7 +70,7 @@ This policy applies to all employees, contractors, and third-party vendors who h
   * Track key metrics such as incident detection time, response time, and recovery time.
   * Analyse metrics to assess the effectiveness of the incident response program and identify trends.
     
--Continuous Improvement
+- Continuous Improvement
   * Regularly review and update the incident response policy and procedures to reflect changes in the threat landscape and organisational environment.
   * Conduct periodic incident response drills and exercises to validate the effectiveness of the IRP and team readiness.
   * Incorporate feedback from drills, exercises, and post-incident reviews to continually improve the incident response process.

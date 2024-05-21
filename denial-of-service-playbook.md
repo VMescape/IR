@@ -8,15 +8,18 @@
 - **Analysis**: Determine the type and source of the attack (e.g., volumetric, application layer, distributed).
 
 ## Step 2: Mitigation
-### 2.1 Traffic Filtering
+### 2.1 Contact ISP
+- Notify your Internet Service Provider about the ongoing attack and request assistance in mitigating the attack closer to its source.
+  
+### 2.2 Traffic Filtering
 - Implement ingress and egress traffic filtering to block malicious traffic at the network perimeter.
 - Utilize access control lists (ACLs) and firewalls to drop or rate limit traffic from suspicious sources.
   
-### 2.2 Scalability Enhancement
+### 2.3 Scalability Enhancement
 - Scale up bandwidth capacity through traffic scrubbing services or bandwidth upgrades from service providers.
 - Deploy content delivery networks (CDNs) to distribute traffic and absorb DDoS attacks.
 
-### 2.3 Application Layer Protection
+### 2.4 Application Layer Protection
 - Configure web application firewalls (WAFs) to filter and block malicious requests targeting specific application vulnerabilities.
 - Harden web and application servers to withstand application layer attacks.
 

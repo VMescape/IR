@@ -17,36 +17,36 @@ The Purpose of this document is to describe the steps used to respond to a (dist
 - **Detection**: Utilize network monitoring tools and intrusion detection systems to identify abnormal traffic patterns and spikes in traffic.
 - **Analysis**: Determine the type and source of the attack (e.g., volumetric, application layer, distributed).
 
-## Step 2: Mitigation
-### 2.1 Contact ISP
+## Step 3: Mitigation
+### 3.1 Contact ISP
 - Notify your Internet Service Provider about the ongoing attack and request assistance in mitigating the attack closer to its source.
   
-### 2.2 Traffic Filtering
+### 3.2 Traffic Filtering
 - Implement ingress and egress traffic filtering to block malicious traffic at the network perimeter.
 - Utilize access control lists (ACLs) and firewalls to drop or rate limit traffic from suspicious sources.
   
-### 2.3 Scalability Enhancement
+### 3.3 Scalability Enhancement
 - Scale up bandwidth capacity through traffic scrubbing services or bandwidth upgrades from service providers.
 - Deploy content delivery networks (CDNs) to distribute traffic and absorb DDoS attacks.
 
-### 2.4 Application Layer Protection
+### 3.4 Application Layer Protection
 - Configure web application firewalls (WAFs) to filter and block malicious requests targeting specific application vulnerabilities.
 - Harden web and application servers to withstand application layer attacks.
 
-## Step 3: Communication and Coordination
+## Step 4: Communication and Coordination
 - **Internal Communication**: Notify internal stakeholders including IT teams, network administrators, and executives about the ongoing attack and mitigation efforts.
 - **External Communication**: If necessary, communicate with Internet service providers (ISPs), hosting providers, and relevant authorities to coordinate response efforts and potentially block traffic closer to the source.
 
-## Step 4: Incident Response
+## Step 5: Incident Response
 - **Documentation**: Maintain detailed logs of the attack traffic, mitigation measures, and outcomes for post-incident analysis.
 - **Forensics**: Conduct forensic analysis to identify weaknesses in the infrastructure and determine potential points of entry for attackers.
 - **Lessons Learned**: Conduct a post-mortem analysis to identify lessons learned and implement improvements to prevent future attacks.
 
-## Step 5: Recovery and Resilience
+## Step 6: Recovery and Resilience
 - **Service Restoration**: Gradually restore services once the attack subsides and verify the integrity of systems before resuming normal operations.
 - **Resilience Enhancement**: Implement proactive measures such as redundancy, failover systems, and disaster recovery plans to minimize the impact of future attacks.
 
-## Step 6: Follow-Up
+## Step 7: Follow-Up
 - **Monitoring**: Continuously monitor network traffic and system logs to detect any signs of ongoing or renewed attacks.
 - **Updates**: Regularly update security measures, including patches, configurations, and incident response plans, based on emerging threats and lessons learned from previous incidents.
 
